@@ -1,0 +1,63 @@
+# ⚡ PowerPulse: Household Energy Usage Forecast
+
+A Machine Learning project to predict household energy consumption using time-series data. This project helps identify usage trends, optimize power consumption, and forecast demand using regression models.
+
+---
+
+## 📌 Project Overview
+
+Energy consumption management is vital in today's smart grid systems. **PowerPulse** uses historical power usage data from households to forecast energy needs. The project includes data preprocessing, feature engineering, model building, and performance evaluation.
+
+---
+
+## 🎯 Objectives
+
+- Predict future **Global Active Power** usage.
+- Understand key factors influencing energy consumption.
+- Enable insights for both consumers and power providers.
+
+---
+
+## 🧠 Key Skills
+
+- Data Preprocessing  
+- Feature Engineering  
+- Regression Modeling  
+- Evaluation Metrics (RMSE, MAE, R²)  
+- Visualization
+
+---
+
+## 🧾 Dataset
+
+- **Name**: Individual Household Electric Power Consumption  
+- **Source**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/individual+household+electric+power+consumption)  
+- **Duration**: 2006–2010  
+- **Frequency**: 1-minute intervals  
+- **Size**: ~2 million rows
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- Jupyter Notebook
+
+---
+
+## 🔍 Project Structure
+
+```bash
+powerpulse/
+├── data/
+│   └── household_power_consumption.txt
+├── notebooks/
+│   └── PowerPulse_Prediction.ipynb
+├── output/
+│   └── model_metrics.csv
+│   └── plots/
+├── README.md
+└── requirements.txt
